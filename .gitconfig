@@ -1,0 +1,10 @@
+[user]
+	name = icearl
+[user]
+	email = 306030928@qq.com
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	required = true
+	clean = git-lfs clean -- %f
+[alias]
+	hgs = "hexo g&&hexo s"
